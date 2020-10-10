@@ -1,0 +1,21 @@
+{
+  "name": "uber-clone",
+  "main": "lib/index.js",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "diez compile",
+    "hot": "diez hot",
+    "extract": "diez extract"
+  },
+  "dependencies": {
+    "@diez/engine": "^10.6.0",
+    "@diez/prefabs": "^10.6.0"
+  },
+  "devDependencies": {
+    "@diez/compiler-core": "^10.6.0",
+    "@diez/extractors": "^10.6.0",
+    "@diez/stdlib": "^10.6.0",
+    "diez": "^10.6.0",
+    "typescript": "^3.7.2"
+  }
+}
