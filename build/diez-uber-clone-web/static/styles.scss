@@ -1,0 +1,12 @@
+
+
+$design-language-red: hsla(0, 100%, 50%, 1);
+
+@mixin design-language-red-background-color {
+  background-color: hsla(0, 100%, 50%, 1);
+}
+
+@mixin design-language-red-color {
+  color: hsla(0, 100%, 50%, 1);
+}
+

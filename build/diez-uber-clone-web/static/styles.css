@@ -1,0 +1,14 @@
+
+
+:root {
+  --design-language-red: hsla(0, 100%, 50%, 1);
+}
+
+.design-language-red-background-color {
+  background-color: hsla(0, 100%, 50%, 1);
+}
+
+.design-language-red-color {
+  color: hsla(0, 100%, 50%, 1);
+}
+

@@ -1,0 +1,15 @@
+name: DiezUberClone
+options:
+  bundleIdPrefix: org.diez.UberClone
+  deploymentTarget: 11
+targets:
+  DiezUberClone:
+    type: framework
+    platform: iOS
+    sources:
+      - Sources/DiezUberClone
+    info:
+      path: Sources/DiezUberClone/Info.plist
+      properties:
+        CFBundleShortVersionString: 1.0.0
+    scheme: {} # Generates the shared scheme
